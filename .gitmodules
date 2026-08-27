@@ -1,0 +1,9 @@
+[submodule "patient-service"]
+	path = patient-service
+	url = https://github.com/LahiruMudith/medix-portal-patient-service.git
+[submodule "doctor-service"]
+	path = doctor-service
+	url = https://github.com/LahiruMudith/medix-portal-doctor-service.git
+[submodule "appointment-service"]
+	path = appointment-service
+	url = https://github.com/LahiruMudith/medix-portal-appointment-service.git

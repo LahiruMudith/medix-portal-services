@@ -1,6 +1,11 @@
 module.exports = {
   apps: [
     {
+      name: "cloud-sql-auth-proxy",
+      script: "./cloud-sql-proxy project-dd639dbc-1e4a-48b8-bae:us-central1:medix-postgres-vm project-dd639dbc-1e4a-48b8-bae:asia-southeast1:medix-mysql-vm --private-ip",
+      log_file: "logs/cloud-sql-auth-proxy.log",
+    },
+    {
       name: "patient-service",
       script: "java",
       args: "-jar ./patient-service/target/Patient-Service-1.0.0.jar",
